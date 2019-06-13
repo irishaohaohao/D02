@@ -1,0 +1,72 @@
+<%- include('bootheader') -%>
+    <div class="jumbotron">
+        <h1>CS152aj Quiz 1</h1>
+        <p>Write the HTML with Bootstrap to create this page.
+          Upload your code to Latte. You can make your page in yellowcartwheel.</p>
+    </div>
+
+
+
+      <div class="row">
+
+        <div class="col-md-3">
+          <img src="  https://www.brandeis.edu/about/images/louis-d-brandeis-portrait.jpg" alt="brandeis" width="100%"/>
+        </div>
+
+        <div class="col-md-9">
+          <a href="https://www.brandeis.edu" class="stretched-link">Brandeis University </a>
+           was named after Justice Louis Dembitz Brandeis
+          <ul>
+            <li>Supreme Court Justice</li>
+            <li>Strong supporter of Privacy</li>
+            <li>Namesake of Brandeis University</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="jumbotron">
+              <h1>Enter Your Information</h1>
+              <p>To be enrolled in a raffle</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td><input class="form-control form-control-sm" type="text"></td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td><input class="form-control form-control-sm" type="text"></td>
+              </tr>
+              <tr>
+
+                <td>Class</td>
+                <td>
+                  <select class="form-control form-control-sm">
+                    <option>Freshperson</option>
+                  </select>
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-4">
+          <div>
+            <button type="button" class="btn btn-primary btn-lg">Submit</button>
+          </div>
+            <button type="button" class="btn btn-warning">Reset</button>
+        </div>
+      </div>
+
+
+
+<%- include('bootfooter') -%>
